@@ -10,5 +10,5 @@ urlpatterns = [
     path("", include("django.contrib.auth.urls")),
     path("dashboard/", include("tenants.dashboard_urls")),
     path("", include("bookings.urls")),  # tenant-slug routes last
-    path("services/<int:pk>/delete/", views.service_list, name="service_delete"),
+
 ]
