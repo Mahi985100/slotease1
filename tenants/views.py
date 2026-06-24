@@ -11,3 +11,6 @@ def register(request):
 
 def staff_login_view(request):
     return HttpResponse("Staff Login Page")
+
+def dashboard(request):
+    return HttpResponse("Dashboard Page")
