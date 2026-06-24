@@ -20,3 +20,7 @@ from django.http import HttpResponse
 def analytics(request):
     return HttpResponse("Analytics Page")
 
+def service_list(request):
+    from django.http import HttpResponse
+    return HttpResponse("Service List")
+
