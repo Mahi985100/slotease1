@@ -24,3 +24,6 @@ def service_list(request):
     from django.http import HttpResponse
     return HttpResponse("Service List")
 
+def service_edit(request):
+    return render(request, "tenants/service_form.html")
+
