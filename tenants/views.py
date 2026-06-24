@@ -14,3 +14,9 @@ def staff_login_view(request):
 
 def dashboard(request):
     return HttpResponse("Dashboard Page")
+
+from django.http import HttpResponse
+
+def analytics(request):
+    return HttpResponse("Analytics Page")
+
